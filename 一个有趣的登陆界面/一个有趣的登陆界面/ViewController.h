@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+typedef NS_ENUM(NSInteger,ZzLoginShowType){
+    ZzLoginShowType_NONE,
+    ZzLoginShowType_USER,
+    ZzLoginShowType_PASS
+    
+} ;
 @interface ViewController : UIViewController
 
 

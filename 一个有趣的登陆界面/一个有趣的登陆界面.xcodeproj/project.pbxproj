@@ -26,7 +26,6 @@
 		2AD3A1221C95A68D0092E012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AD3A1251C95A68D0092E012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AD3A1271C95A68D0092E012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2AD3A12D1C95A7FF0092E012 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +67,6 @@
 				2AD3A1241C95A68D0092E012 /* LaunchScreen.storyboard */,
 				2AD3A1271C95A68D0092E012 /* Info.plist */,
 				2AD3A1161C95A68D0092E012 /* Supporting Files */,
-				2AD3A12D1C95A7FF0092E012 /* PrefixHeader.pch */,
 			);
 			path = "一个有趣的登陆界面";
 			sourceTree = "<group>";
