@@ -37,6 +37,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setUpSubView];
+//    [self injected];
 }
 -(void)setUpSubView{
     UIImageView *imageLogin = [[UIImageView alloc] initWithFrame:rectLogin];
@@ -133,6 +134,8 @@
 
     }
 }
-
+-(void)injected{
+    NSLog(@"I've been injected: %@",self);
+}
 
 @end
