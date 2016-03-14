@@ -13,6 +13,7 @@
 		2AD3A1211C95A68D0092E012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD3A11F1C95A68D0092E012 /* Main.storyboard */; };
 		2AD3A1231C95A68D0092E012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD3A1221C95A68D0092E012 /* Assets.xcassets */; };
 		2AD3A1261C95A68D0092E012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD3A1241C95A68D0092E012 /* LaunchScreen.storyboard */; };
+		2AD3A1311C9695D10092E012 /*  登陆.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2AD3A1301C9695D10092E012 /*  登陆.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2AD3A1221C95A68D0092E012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AD3A1251C95A68D0092E012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AD3A1271C95A68D0092E012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AD3A1301C9695D10092E012 /*  登陆.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = " 登陆.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		2AD3A1151C95A68D0092E012 /* 一个有趣的登陆界面 */ = {
 			isa = PBXGroup;
 			children = (
+				2AD3A12F1C9695D10092E012 /* other */,
 				2AD3A1191C95A68D0092E012 /* AppDelegate.h */,
 				2AD3A11A1C95A68D0092E012 /* AppDelegate.m */,
 				2AD3A11C1C95A68D0092E012 /* ViewController.h */,
@@ -77,6 +80,14 @@
 				2AD3A1171C95A68D0092E012 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AD3A12F1C9695D10092E012 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				2AD3A1301C9695D10092E012 /*  登陆.gif */,
+			);
+			path = other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AD3A1311C9695D10092E012 /*  登陆.gif in Resources */,
 				2AD3A1261C95A68D0092E012 /* LaunchScreen.storyboard in Resources */,
 				2AD3A1231C95A68D0092E012 /* Assets.xcassets in Resources */,
 				2AD3A1211C95A68D0092E012 /* Main.storyboard in Resources */,
@@ -300,6 +312,7 @@
 				2AD3A12C1C95A68D0092E012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
